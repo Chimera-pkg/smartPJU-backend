@@ -1,11 +1,11 @@
-const DEFAULT_FLEXIOT_EMAIL = "yosiaagustadewa@gmail.com";
-const DEFAULT_FLEXIOT_PASSWORD = "bangagus123";
+const DEFAULT_FLEXIOT_EMAIL = "=";
+const DEFAULT_FLEXIOT_PASSWORD = "";
 const DEFAULT_FLEXIOT_USER_ID = 73777;
-const DEFAULT_FLEXIOT_X_SECRET = "Zk1PUXZZamFUOWI4N25XMG5hOERRWVBpTTVRYTpzNzJleHBkZm14c1BSaDgxclhrUURFR2hfUG9h";
-const DEFAULT_FLEXIOT_MQTT_USERNAME = "xlkm_xcamp_dashboard-development-v1_6807";
-const DEFAULT_FLEXIOT_MQTT_PASSWORD = "1638343277_6807";
-const DEFAULT_FLEXIOT_MQTT_EVENT_TOPIC = "xlkm_xcamp_dashboard/development/v1/common";
-const DEFAULT_FLEXIOT_MQTT_URL = "mqtt://devdeviceconnect.iot.xpand.asia:1893";
+const DEFAULT_FLEXIOT_X_SECRET = "";
+const DEFAULT_FLEXIOT_MQTT_USERNAME = "";
+const DEFAULT_FLEXIOT_MQTT_PASSWORD = "";
+const DEFAULT_FLEXIOT_MQTT_EVENT_TOPIC = "";
+const DEFAULT_FLEXIOT_MQTT_URL = "mqtt://devdeviceconnect3";
 
 module.exports = {
   DEFAULT_FLEXIOT_EMAIL,

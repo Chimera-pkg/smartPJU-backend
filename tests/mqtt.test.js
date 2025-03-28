@@ -7,7 +7,7 @@ async function main() {
     clientId: "dashboard-smart-pju",
     clean: true,
     connectTimeout: 4000,
-    username: 'xlkm_xcamp_dashboard-development-v1_6807',
+    username: '',
     password: '1638343277_6807',
     reconnectPeriod: 1000,
   })
@@ -29,7 +29,7 @@ async function main() {
     // actions
     // client.subscribe("+/8756408788510687/xlkm_xcamp_dashboard/development/v1/sub");
 
-    client.subscribe("xlkm_xcamp_dashboard/development/v1/common")
+    client.subscribe("dashboard/development/v1/common")
 
     function random(min, max) {
       return (Math.random() * (max - min + 1) + min).toFixed(1);
@@ -86,9 +86,9 @@ async function main() {
     // send iot datafile:///snap/teams-insiders/7/usr/share/teams-insiders/resources/app.asar/assets/teams_welcomescreen_v2.svg
     setInterval(() => {
 
-      client.publish("xlkm_xcamp_dashboard/development/v1/common", JSON.stringify(payload1))
-      // client.publish("xlkm_xcamp_dashboard/development/v1/common", JSON.stringify(payload2))
-      // client.publish("xlkm_xcamp_dashboard/development/v1/common", JSON.stringify(payload3))
+      client.publish("_dashboard/development/v1/common", JSON.stringify(payload1))
+      // client.publish("dashboard/development/v1/common", JSON.stringify(payload2))
+      // client.publish("dashboard/development/v1/common", JSON.stringify(payload3))
 
     }, 4000)
 

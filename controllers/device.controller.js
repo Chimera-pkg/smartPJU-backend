@@ -19,7 +19,7 @@ const {getFlexiotHeadersByFlexiotUserId} = require("../services/flexiot.token.se
 const {ErrValidation} = require("../utils/errors/validation.error");
 const {setActionScheme} = require("../validator/device.validator");
 
-const FLEXIOT_BRAND = "Xlkm_xcamp_dashboard";
+const FLEXIOT_BRAND = "xcamp_dashboard";
 
 const MQTT_CLIENT_POOL = new Map();
 
